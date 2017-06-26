@@ -1,6 +1,7 @@
 body {
-  background-image: url(sunset.jpeg);
+  background-image: url(elephant.jpg);
   background-size: cover;
+  height: 100vh;
   overflow: hidden;
   font-family: 'Patrick Hand SC', cursive;
 }
