@@ -1,5 +1,7 @@
 body {
-  background-image: url(elephant.jpg);
+  background-image: url(sunset.jpeg);
+  background-size: cover;
+  overflow: hidden;
   font-family: 'Patrick Hand SC', cursive;
 }
 
@@ -17,8 +19,15 @@ body {
 }
 
 .down {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }
 
 .moveDown {
@@ -27,11 +36,12 @@ body {
 }
 
 .main {
-  height: 90vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /*border: 2px solid red;*/
 }
 
 .your {
